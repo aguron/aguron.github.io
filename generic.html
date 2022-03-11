@@ -20,7 +20,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Exploring the possibilities with data</a>
+						<a href="index.html" class="logo">Exploring possibilities with data</a>
 					</header>
 
 				<!-- Nav -->
@@ -42,23 +42,77 @@
 
 						<!-- Post -->
 						<section class="post">
-							<div class="row">
-							<div class="col-12 col-12-small">
-							<h2>Languages and Tools</h2>
-							<ul>
-								<li><p>Python, SQL, Matlab, C, Java</p></li>
-								<li><p>Docker, Git, AWS</p></li>
-								<li><p>TensorFlow, Keras, PyTorch, Pandas, Scikit-learn, Matplotlib</p></li>
-							</ul>
-						</section>
-
-						<section class="post">
 							<h2>Work Experience</h2>
 							<ul>
 							<li><h3>Postdoctoral Scholar </br> University of California Los Angeles, Los Angeles, California <i>(2018-2021)</i></h3></li>
 							<ul>
-							<p>Developed techniques for detecting cancer and other medical conditions from medical imaging, and techniques for computed tomography quality assurance</p>
+								<li>
+									Led a team in developing a <a href="https://github.com/aguron/DBTex">breast lesion detection pipeline</a> for the first phase of the SPIE-AAPM-NCI-DAIR Digital Breast Tomosynthesis Lesion Detection Challenge (DBTex).
+									<ul>
+										<li>
+											Placed 4<sup>th</sup> with a mean sensitivity of 0.814 and was the best-performing team that did not use an auxiliary breast imaging dataset.
+										</li>
+										<li>
+											Currently involved with journal manuscript preparation.
+										</li>
+										<li>
+											Used Python (Pandas, Scikit-learn, PyTorch, and OpenCV), Docker, Git, and Jupyter.
+										</li>
+									</ul>
+								</li>
+								<li>
+									Used convolutional neural networks (CNNs) in a Multiple-Instance Learning (MIL) framework to detect malignant cancers in mammograms.
+									<ul>
+										<li>
+											Coordinated patient case report retrieval from a picture archiving and communication system (PACS) with a data engineer.
+										</li>
+										<li>
+											Configured Computer Vision Annotation Tool (CVAT) for the radiologists to provide data annotations for model evaluations.
+										</li>
+										<li>
+											Applied VoxelMorph, a CNN-based method, to spatially match mammograms from different time points for each patient.
+										</li>
+										<li>
+											Prepared a research application and was granted access to the OPTIMAM Mammography Image Database to supplement internal data and overcome data-limited conditions negatively impacting modeling.
+										</li>
+										<li>
+											Used Python (Pandas, Matplotlib, and PyTorch), Docker, Git, and Jupyter.
+										</li>
+									</ul>
+								</li>
+								<li>
+									Applied a U-Net to <a href="https://github.com/aguron/EmphysemaScoring">segment emphysema</a> (a lung disease) in computed tomography (CT) lung scans from the LIDC-IDRI database.
+									<ul>
+										<li>
+											Introduced functionality for differentially weighting the model training loss for different voxel classes; achieved an average Dice similarity coefficient of 0.946.
+										</li>
+										<li>
+											Used Matlab, Python (Keras), Git, and Jupyter.
+										</li>
+									</ul>
+								</li>
+								<li>
+									Improved average sensitivity of automated detection (with standard geometric augmentation e.g. translations, rotations, etc.) of lung nodules, 1% to 2%, by introducing <a href="https://github.com/aguron/EmphysemaScoring/blob/master/preprocessing/preprocessdata_mAs.m">a new type of augmentation</a> that simulates CT scans with different acquisition protocols (different radiation doses and reconstruction parameters)
+									<ul>
+										<li>
+											1 <a href="https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.13755">publication</a>.
+										</li>
+										<li>
+											Used Matlab, Python (Matplotlib and Keras), AWS, and Jupyter.
+										</li>
+									</ul>
+								</li>
 							</ul>
+						</section>
+
+						<section class="post">
+							<div class="row">
+							<div class="col-12 col-12-small">
+							<h2>Skills</h2>
+							<ul>
+								<li><p>Python, SQL, Matlab, C, Java</p></li>
+								<li><p>Docker, Git, AWS</p></li>
+								<li><p>TensorFlow, Keras, PyTorch, Pandas, Scikit-learn, Matplotlib</p></li>
 							</ul>
 						</section>
 
